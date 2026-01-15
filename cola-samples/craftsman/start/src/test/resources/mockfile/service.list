@@ -58,7 +58,7 @@ metricTunnel_@_com.alibaba.craftsman.tunnel.database.MetricTunnel
 metricsController_@_com.alibaba.craftsman.controller.MetricsController
 metricsServiceImpl_@_com.alibaba.craftsman.service.MetricsServiceImpl
 miscMetricAddCmdExe_@_com.alibaba.craftsman.command.MiscMetricAddCmdExe
-multipartConfigElement_@_javax.servlet.MultipartConfigElement
+multipartConfigElement_@_jakarta.servlet.MultipartConfigElement
 multipartResolver_@_org.springframework.web.multipart.support.StandardServletMultipartResolver
 mvcContentNegotiationManager_@_org.springframework.web.accept.ContentNegotiationManager
 mvcConversionService_@_org.springframework.format.support.FormattingConversionService
