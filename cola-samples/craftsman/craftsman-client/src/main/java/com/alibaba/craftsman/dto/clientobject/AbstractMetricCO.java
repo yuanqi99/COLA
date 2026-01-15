@@ -3,7 +3,7 @@ package com.alibaba.craftsman.dto.clientobject;
 import com.alibaba.cola.dto.ClientObject;
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotEmpty;
 
 /**
  * AbstractMetricCO

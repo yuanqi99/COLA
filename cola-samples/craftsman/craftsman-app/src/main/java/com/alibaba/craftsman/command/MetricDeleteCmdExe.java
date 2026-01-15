@@ -5,7 +5,7 @@ import com.alibaba.craftsman.domain.gateway.MetricGateway;
 import com.alibaba.craftsman.dto.MetricDeleteCmd;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 /**
  * MetricDeleteCmdExe
