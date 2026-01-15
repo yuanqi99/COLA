@@ -10,7 +10,8 @@
     <name>${artifactId}</name>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -19,7 +20,7 @@
         <cola.components.version>5.x-SNAPSHOT</cola.components.version>
 
         <spring-boot.version>3.3.0</spring-boot.version>
-        <mybatis-starter.version>2.2.2</mybatis-starter.version>
+        <mybatis-starter.version>3.0.3</mybatis-starter.version>
     </properties>
 
     <modules>
@@ -88,19 +89,14 @@
                 <version>${mybatis-starter.version}</version>
             </dependency>
 
-            <!--Validation API-->
+            <!-- Jakarta Validation API -->
             <!--
-                - javax.validation:javax.validation
+                - jakarta.validation:jakarta.validation-api
                 - org.hibernate.validator:hibernate-validator
                 - org.glassfish:jakarta.el
                 are declared in spring-boot-dependencies
             -->
-            <dependency>
-                <groupId>javax.el</groupId>
-                <artifactId>javax.el-api</artifactId>
-                <version>3.0.0</version>
-            </dependency>
-            <!--Validation API End -->
+            <!-- Jakarta Validation API End -->
 
             <!-- Misc -->
             <dependency>
